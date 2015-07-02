@@ -4,7 +4,7 @@ require 'minitest/autorun'
 require 'json'
 
 class TestDrivy < Minitest::Test
-  (1..5).each do |level|
+  (1..6).each do |level|
     define_method("test_level#{level}") do
       run_level level
     end
